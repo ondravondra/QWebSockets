@@ -24,15 +24,15 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
 QT_BEGIN_NAMESPACE
 
-#ifndef QT_STATIC
+/*#ifndef QT_STATIC
 #  if defined(QT_BUILD_WEBSOCKETS_LIB)
 #    define Q_WEBSOCKETS_EXPORT Q_DECL_EXPORT
 #  else
 #    define Q_WEBSOCKETS_EXPORT Q_DECL_IMPORT
 #  endif
-#else
+#else*/
 #  define Q_WEBSOCKETS_EXPORT
-#endif
+//#endif
 
 // The macro has been available only since Qt 5.0
 #ifndef Q_DECL_OVERRIDE
